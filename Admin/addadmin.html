@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Hotel Ocean Blue</title>
+    <link rel="stylesheet" href="https://maxst.icons8.com/vue-static/landings/line-awesome/line-awesome/1.3.0/css/line-awesome.min.css">
+    <link rel="icon" type="image/x-icon" href="images/fav.png">
+    <link rel="stylesheet" href="css/style.css">
+</head>
+
+
+<body>
+    <input type="checkbox" name="" id="menu-toggle">
+<div class="overlay"><label for="menu-toggle">
+  </label></div>
+<div class="sidebar">
+  <div class="sidebar-container">
+    <div class="brand">
+      <img src="images/logo.png" alt="logo" >
+    </div>
+    <div class="sidebar-avatar">
+      <div>
+        <img src="images/users/user1.jpeg" alt="avatar">
+      </div>
+      <div class="avatar-info">
+        <div class="avatar-text">
+          <h4>Hashan</h4>
+        </div>
+        <span class="las la-power-off logout"></span>
+      </div>
+    </div>
+    <div class="sidebar-menu">
+      <ul>
+        <li><a href="viewbooking.html" ><span class="las la-calendar"></span><span>View Booking</span></a></li>
+        <li><a href="rooms.html"><span class="las la-hotel"></span><span>Room Details</span></a></li>
+        <li><a href="food.html"><span class="las la-hamburger"></span><span>Food Details</span></a></li>
+        <li><a href="reports.html"><span class="las la-chart-bar"></span><span>Reports</span></a></li>
+        <li><a href="addadmin.html" class="active"><span class="las la-user"></span><span>Add Admin</span></a></li>
+      </ul>
+    </div>
+ 
+  </div>
+</div>
+<div class="main-content">
+  <header>
+    <div class="header-wrapper">
+      <label for="menu-toggle">
+        <span class="las la-bars"></span>
+      </label>
+      <div class="header-title">
+        <h1>Add New Admin</h1>
+      </div>
+    </div>
+    
+  </header>
+  <main>
+   <div class="row">
+        <b>Admin Name: </b><input type="text" placeholder="Admin Name" >
+   </div>
+
+   <div class="row">
+    <b>Admin Email: </b><input type="text" placeholder="Admin Email" >
+</div>
+
+<br>
+
+<div class="row">
+    <b>Phone Number:&nbsp;</b>
+    <input type="text" placeholder="Phone Number" >
+</div>
+
+<div class="row">
+    <b>Address: </b><input type="text" placeholder="Address" value="3">
+</div>
+
+<br>
+
+
+<br><br>
+
+<button class="btn btn-succes">
+    <span class="las la-check-square"></span>
+    Submit Data
+  </button>
+  </main>
+</div>
+
+</body>
+</html>
